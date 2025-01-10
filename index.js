@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: "https://croxo-front-m.vercel.app/",
+    origin: "https://croxo-front.vercel.app/",
   })
 );
 mongoose
